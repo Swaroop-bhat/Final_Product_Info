@@ -409,6 +409,7 @@ hr {
 }
 
 li {
+  list-style-type: none;
   padding-left: 5px;
 }
 li a {
