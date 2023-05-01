@@ -30,7 +30,7 @@ header .see {
 .toggler-icon {
   width: 30px;
   height: 3px;
-  background-color: #e74c3c;
+  background-color: grey;
   display: block;
   transition: all 0.2s;
 }
@@ -409,7 +409,6 @@ hr {
 }
 
 li {
-  list-style-type: none;
   padding-left: 5px;
 }
 li a {
@@ -504,54 +503,62 @@ header .des {
     padding-right: 15px;
   }
 }
-@media only screen and (max-width: 385px) {
-  header {
-    font-size: 25px;
-  }
-  p .z {
-    font-size: 15px;
-    color: red;
-  }
-  h6 {
-    padding: 10px;
-    font-size: 23px;
-  }
-  header .see {
-    font-size: 20px;
-  }
-  .d1 {
-    padding: 5px;
-    font-size: 21px;
-  }
-  .do {
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    color: grey;
-    padding-top: 25px;
-  }
-  .dol {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
-  }
-  .para10 .threes {
-    width: 100px;
-    margin-inline: auto;
-    color: white;
-    font-weight: bold;
-    font-size: 10px;
-  }
-  .up {
-    padding-left: 5px;
-  }
-  .k {
-    padding-left: 15px;
-  }
+header {
+  font-size: 25px;
 }
+
+p .z {
+  font-size: 15px;
+  color: red;
+}
+
+h6 {
+  padding: 10px;
+  font-size: 23px;
+}
+
+header .see {
+  font-size: 20px;
+}
+
+.d1 {
+  padding: 5px;
+  font-size: 21px;
+}
+
+.do {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: grey;
+  padding-top: 25px;
+}
+
+.dol {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.para10 .threes {
+  width: 100px;
+  margin-inline: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.up {
+  padding-left: 5px;
+}
+
+.k {
+  padding-left: 15px;
+}
+
 @media only screen and (max-width: 627px) {
   .nine {
     font-size: 17px;
