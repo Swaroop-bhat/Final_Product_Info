@@ -90,25 +90,34 @@ header{
 .cardss:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.23);
 }
-.para9 li {
+.features li {
     font-size: 15px;
     margin-left: 0px;
     padding: 5px;
 
 }
 
-.container_aa{
+.description{
     display: flex;
+    justify-content: space-around;
+        font-size: 25px;
+        margin-left: 15px;
+        font-weight: bold;
+        padding-left: 15px;
+        color: goldenrod;
 }
-// article{
-//     color: red;
-// }
+.designhead{
+    text-align: center;
+    color: goldenrod
+}
 div .f7{
     display: flex;
     flex-direction: row;
 }
-.f8 article{
+.screen article{
     display: flex;
+    color: deepskyblue;
+        font-size: 18px
 }
 span .se{
     font-size: 1px;
@@ -146,21 +155,21 @@ h6 {
     flex-direction: row;
     justify-content: space-between;
 }
-.a {
+.text1 {
     color: white;
     font-size: 40px;
     
     padding-top: 100px;
     padding-left: 100px;
 }
-.b{
+.text2{
     color: white;
     font-size: 40px;
     
         padding-top: 10px;
         padding-left: 100px;
 }
-.container_w{
+.hero_section{
     background-image: url("../img/1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,10 +207,11 @@ h3{
         font-weight: bold;
 }
 
-.container-s{
+.display{
     min-height: 100vh;
     min-width: 100%;
     background-color: black;
+    margin-top: 10px;
     
     .para{
         text-align: center;
@@ -244,25 +254,19 @@ section{
     font-size: 30px;
     margin-top: 35px;
 }
-.container1{
+.main_features{
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-// .card-img-top {
-//     width: 100%;
-//     height: auto;
-// }
+
 .border_box{
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
 }
-// .col{
-//     width: 100%;
-//         aspect-ratio: 4/2;
-// }
+
 .one{
    width: 900px;
    height: 500px;
@@ -325,10 +329,10 @@ body{
 h4{
   color: white;
 }
-.p1{
-    font-size: 30px;
+.thunder{
+    font-size: 20px;
 }
-.para3{
+.features{
     width:1000px; 
     margin-inline: auto;
     color: black;
@@ -339,17 +343,16 @@ h4{
     
 
 }
-// .container_d{
-//     background-color: black;
-// }
+
 hr{
     color: white;
     height: 20px;
 }
-.container_p{
+// footer 
+.container_footer{
     background-color: black;
 }
-.container_q{
+.footer_items{
     color: white;
     display: flex;
     justify-content: space-between;
@@ -406,8 +409,13 @@ hr{
     
         }
 }
+.copyright{
+    color: white;
+        padding-bottom: 5px;
+        padding-top: 8px
+}
+// footer end 
 li {
-   
     padding-left: 5px;
     a {
         text-decoration: none;
@@ -437,11 +445,11 @@ section{
 .nav-link{
     font-size: 18px;
 }
-.container-s h3 .x{
+.display h3 .x{
     color: goldenrod;
     font-size: 20px;
 }
-header .des{
+header .final_description{
     font-size: 25px;
 }
 .l{
@@ -466,7 +474,7 @@ header .des{
 }
 
 @media only screen and (max-width:375px) {
-    .a {
+    .text1 {
         
             color: white;
             font-size: 1px;
@@ -475,7 +483,7 @@ header .des{
             padding-left: 100px;
         }
     
-        .b {
+        .text2 {
             color: white;
             font-size: 1px;
     
@@ -681,12 +689,7 @@ header {
     }
 }
 
-// @media only screen and (min-width: 279px) and (max-width: 290px) {
-//     .container_aa{
-//         padding-left: 10px;
-//         margin-left: 0px;
-//     }
-// }
+
 @media only screen and (min-width: 510px) and (max-width: 550px) {
     .para11 {
         width: 315px;
@@ -752,12 +755,12 @@ header {
     }
 }
 @media only screen and (min-width: 818px) and (max-width: 915px) {
-    .para3{
+    .features{
          width: 700px;
     }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1050px) {
-    .para3 {
+    .features {
         width: 800px;
     }
 }
@@ -827,7 +830,7 @@ header {
         margin-left: 0px;
         // margin-right: 5px;
     }
-    header .des{
+    header .final_description{
         font-size: 15px;
     }
 
@@ -847,7 +850,7 @@ header {
       
         padding: 3.5px;
     }
-    .a {
+    .text1 {
             color: white;
             font-size: 30px;
     
@@ -855,7 +858,7 @@ header {
             padding-left: 30px;
         }
     
-        .b {
+        .text2 {
             color: white;
             font-size: 30px;
     
@@ -917,10 +920,10 @@ header {
     width: 600px;
     height:400px;
 } 
-.p1{
+.thunder{
     font-size: 20px;
 }   
-.para3{
+.features{
     width: inherit;
     font-size: 12px;
     overflow-wrap: break-word;
@@ -968,7 +971,7 @@ header {
             height: 300px;
             width: 600px;
         }
-    .container_w {
+    .hero_section{
             background-image: url("../img/1.jpeg");
             background-repeat: no-repeat;
             background-size: cover;
@@ -976,7 +979,7 @@ header {
             height: 400px;
             width: 100%;
         }
-    .para3{
+    .features{
         width: 500px;
         margin-right: 40px;
         margin-left: 0;
@@ -990,16 +993,16 @@ header {
             width: 600px;
             height: 400px;
         }
-    .p1 {
+    .thunder {
         font-size: 25px;
     }
-        .para3 {
+        .features{
             width: inherit;
             font-size: 16px;
             overflow-wrap: break-word;
     
         }
-        .container_p {
+        .container_footer {
             .item3 {
                     margin-left: 2px;
                     margin-right: 4px;
