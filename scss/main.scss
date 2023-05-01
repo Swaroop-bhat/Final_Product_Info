@@ -216,6 +216,7 @@ section{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    
 }
 
 .image{
@@ -392,7 +393,7 @@ hr{
     
         }
 }
-.item4{
+.item4 li{
     list-style-type: none;
         padding-left: 5px;
     
@@ -808,21 +809,6 @@ header {
         margin-left: 650px;
     }
 }
-// @media screen and (orientation: portrait) and (max-width: XXXpx) {
-
-//     body {
-
-//         max-width: 80%;
-
-//     }
-
-// }
-// @media only screen and (min-width:819px){
-//     .para3{
-//         // width: 700px;
-//         font-size: 20px;
-//     }
-// }
 @media only screen and (min-width: 818px) and (max-width: 915px) {
     .para3{
          width: 700px;
