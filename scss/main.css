@@ -13,6 +13,7 @@ header {
 }
 header .see {
   font-size: 27px;
+  color: aliceblue;
 }
 
 .navbar-toggler {
@@ -297,13 +298,9 @@ body {
   justify-content: center;
 }
 
-.container_a {
+.chip_section {
   background-color: black;
   background-image: url(../img/processor2.webp);
-}
-
-.container_b {
-  background-color: black;
 }
 
 .flex2 {
@@ -450,11 +447,12 @@ section {
   justify-content: center;
 }
 
-.bh {
+.service {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  color: lightblue;
 }
 
 .nav-link {
@@ -475,18 +473,14 @@ header .final_description {
   margin-left: 30px;
 }
 
-.container_aa {
+.chip_section {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 425px) {
-  .embed-responsive {
-    width: 100%;
-  }
-  .embed-responsive iframe {
-    width: 100%;
-  }
+.see {
+  color: lightblue;
 }
+
 @media only screen and (max-width: 375px) {
   .text1 {
     color: white;
@@ -506,7 +500,7 @@ header .final_description {
     padding-left: 15px;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 340px) {
   header {
     font-size: 25px;
   }
@@ -518,18 +512,8 @@ header .final_description {
     margin-right: 20px;
   }
 }
-@media only screen and (max-width: 768px) {
-  .item2 {
-    padding-right: 15px;
-  }
-}
 header {
   font-size: 25px;
-}
-
-p .z {
-  font-size: 15px;
-  color: red;
 }
 
 h6 {
@@ -539,6 +523,7 @@ h6 {
 
 header .see {
   font-size: 20px;
+  color: aliceblue;
 }
 
 .d1 {
@@ -579,22 +564,16 @@ header .see {
   padding-left: 15px;
 }
 
-@media only screen and (max-width: 627px) {
-  .nine {
-    font-size: 17px;
-  }
-  .ten {
-    font-size: 17px;
-  }
+.twos {
+  text-align: center;
+  color: goldenrod;
 }
-@media only screen and (max-width: 375px) {
-  .ones {
-    font-size: 10px;
-  }
-}
+
 @media only screen and (max-width: 740px) {
   .twos {
     font-size: 25px;
+    text-align: center;
+    color: goldenrod;
   }
   .twoss {
     font-size: 25px;
@@ -629,12 +608,12 @@ header .see {
   }
 }
 @media only screen and (min-width: 270px) and (max-width: 300px) {
-  .sw3 {
+  .home_service {
     margin-left: 89px;
   }
 }
 @media only screen and (min-width: 359px) and (max-width: 376px) {
-  .sw3 {
+  .home_service {
     margin-left: 133px;
   }
 }
@@ -657,18 +636,6 @@ header .see {
 @media only screen and (min-width: 279px) and (max-width: 290px) {
   .para10 {
     width: 265px;
-  }
-}
-@media only screen and (min-width: 390px) and (max-width: 425px) {
-  iframe {
-    margin-left: 0px;
-  }
-}
-@media only screen and (min-width: 700px) and (max-width: 767px) {
-  .container {
-    padding-right: 0px;
-    margin-right: 0px;
-    margin-left: auto;
   }
 }
 @media only screen and (min-width: 1599px) and (max-width: 2000px) {
@@ -807,14 +774,6 @@ header .see {
     width: 100%;
     height: 100px;
   }
-  .container_w {
-    background-image: url("../img/1.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 300px;
-    width: 100%;
-  }
   .im1 {
     height: 300px;
     width: 450px;
@@ -849,12 +808,6 @@ header .see {
     width: inherit;
     font-size: 12px;
     overflow-wrap: break-word;
-  }
-  .container_f {
-    overflow-wrap: break-word;
-  }
-  .container_p .item3 {
-    margin-left: 0px;
   }
   .para10 {
     margin-inline: auto;
@@ -901,7 +854,7 @@ header .see {
     height: 400px;
   }
   .thunder {
-    font-size: 25px;
+    font-size: 17px;
   }
   .features {
     width: inherit;
